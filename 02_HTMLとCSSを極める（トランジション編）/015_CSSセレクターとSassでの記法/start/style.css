@@ -6,7 +6,7 @@
   color: purple;
 }
 
-.parent > .element.second-child {
+.parent > .element .second-child {
   color: black;
 }
 

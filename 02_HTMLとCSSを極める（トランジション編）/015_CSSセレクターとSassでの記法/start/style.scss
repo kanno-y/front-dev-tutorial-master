@@ -4,7 +4,7 @@
   & > .element {
     color: purple;
 
-    &.second-child {
+    & .second-child {
       color: black;
     }
   }

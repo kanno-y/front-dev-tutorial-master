@@ -22,7 +22,8 @@
  */
 /* インライン要素に対して */
 // .parent {
-//   text-align: left;
+//   text-align: right;
+//   letter-spacing: -5px;
 // }
 // .child {
 //     display: inline-block;
@@ -32,7 +33,7 @@
 // .parent {
 // }
 // .child {
-//     margin: 0 auto;
+//   margin: 0 auto;
 // }
 
 /**
@@ -47,10 +48,14 @@
 //   left: 50%;
 //   transform: translate(-50%, -50%);
 // }
-
-// .parent {
-//   display: flex;
-//   flex-direction: column;
-//   justify-content: flex-start;
-//   align-items: flex-end;
+// .child.v2 {
+//   top: 30%;
+//   left: 30%;
 // }
+
+.parent {
+  display: flex;
+  // flex-direction: column;
+  justify-content: flex-start;
+  // align-items: flex-end;
+}

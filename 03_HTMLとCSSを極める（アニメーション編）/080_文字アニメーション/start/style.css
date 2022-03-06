@@ -46,48 +46,48 @@ body {
 }
 
 .animate-title.inview .char:nth-child(1) {
-  -webkit-animation-duration: 0.04s;
-          animation-duration: 0.04s;
+  -webkit-animation-duration: 0.1s;
+          animation-duration: 0.1s;
 }
 
 .animate-title.inview .char:nth-child(2) {
-  -webkit-animation-duration: 0.08s;
-          animation-duration: 0.08s;
-}
-
-.animate-title.inview .char:nth-child(3) {
-  -webkit-animation-duration: 0.12s;
-          animation-duration: 0.12s;
-}
-
-.animate-title.inview .char:nth-child(4) {
-  -webkit-animation-duration: 0.16s;
-          animation-duration: 0.16s;
-}
-
-.animate-title.inview .char:nth-child(5) {
   -webkit-animation-duration: 0.2s;
           animation-duration: 0.2s;
 }
 
+.animate-title.inview .char:nth-child(3) {
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+}
+
+.animate-title.inview .char:nth-child(4) {
+  -webkit-animation-duration: 0.4s;
+          animation-duration: 0.4s;
+}
+
+.animate-title.inview .char:nth-child(5) {
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
 .animate-title.inview .char:nth-child(6) {
-  -webkit-animation-duration: 0.24s;
-          animation-duration: 0.24s;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
 }
 
 .animate-title.inview .char:nth-child(7) {
-  -webkit-animation-duration: 0.28s;
-          animation-duration: 0.28s;
+  -webkit-animation-duration: 0.7s;
+          animation-duration: 0.7s;
 }
 
 .animate-title.inview .char:nth-child(8) {
-  -webkit-animation-duration: 0.32s;
-          animation-duration: 0.32s;
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
 }
 
 .animate-title.inview .char:nth-child(9) {
-  -webkit-animation-duration: 0.36s;
-          animation-duration: 0.36s;
+  -webkit-animation-duration: 0.9s;
+          animation-duration: 0.9s;
 }
 
 @-webkit-keyframes kf-animate-chars {

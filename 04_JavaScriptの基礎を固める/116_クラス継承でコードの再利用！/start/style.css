@@ -29,6 +29,11 @@ body {
   display: inline-block;
 }
 
+.animate-title .char,
+.tween-animate-title .char {
+  opacity: 0;
+}
+
 .animate-title.inview .char {
   -webkit-animation-name: kf-animate-chars;
           animation-name: kf-animate-chars;

@@ -2,6 +2,7 @@ class MobileMenu {
   constructor() {
     this.DOM = {}; // DOM初期化
     this.DOM.btn = document.querySelector(".mobile-menu__btn");
+    this.DOM.cover = document.querySelector(".mobile-menu__cover");
     this.DOM.container = document.querySelector("#gloval-container");
     this.eventType = this._getEventType();
     this._addEvent();
@@ -23,6 +24,7 @@ class MobileMenu {
 
   _addEvent() {
     this.DOM.btn.addEventListener("click", this._toggle.bind(this)); // イベントリスナー登録
+    this.DOM.cover.addEventListener("click", this._toggle.bind(this)); // イベントリスナー登録
   }
 }
 

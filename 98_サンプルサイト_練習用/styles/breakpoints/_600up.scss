@@ -4,6 +4,7 @@ Stylesheet: 600px以上のタブレットやモニタで適用
 
 ******************************************************************/
 .flex {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }

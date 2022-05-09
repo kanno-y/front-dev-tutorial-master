@@ -64,6 +64,9 @@ img {
   color: $cWineRed;
 }
 
+#content {
+  padding-top: $navHeight;
+}
 .houses {
   @extend .content-width;
 
@@ -131,6 +134,52 @@ img {
   }
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  height: $navHeight;
+  display: flex;
+  align-items: center;
+  z-index: 100;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @extend .content-width;
+  }
+
+  &__nav {
+    display: none;
+  }
+
+  &__ul {
+    @extend .flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    align-items: center;
+  }
+
+  &__li {
+    margin-left: 20px;
+
+    & > a {
+      color: $cBlack;
+      text-decoration: none !important;
+      text-transform: uppercase;
+    }
+  }
+
+  & .logo {
+    font-size: 38px;
+    justify-content: center;
+  }
+}
+
 .travel {
   @extend .content-width;
 
@@ -146,7 +195,13 @@ img {
   &__title {
     position: relative;
 
-    @include p-base($display: none, $width: 100px, $height: 1px, $top: 50%, $left: -120) {
+    @include p-base(
+      $display: none,
+      $width: 100px,
+      $height: 1px,
+      $top: 50%,
+      $left: -120px
+    ) {
       background-color: $cBlack;
       transform: translateY(-50%) scaleX(0);
       transition: transform 0.3s ease 1.6s;
@@ -183,5 +238,51 @@ img {
 
   &__texts {
     @extend .pb-sm;
+  }
+}
+
+.logo {
+  font-size: 42px;
+  display: flex;
+
+  &__img {
+    width: 0.7em;
+  }
+
+  &__world {
+    color: $cWineRed;
+  }
+}
+
+.footer {
+  padding: 60px 0;
+  @extend .content-width;
+
+  &__nav {
+    @extend .flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  &__ul {
+    @extend .flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  &__li {
+    padding: 0;
+    margin: 10px;
+
+    & > a {
+      color: $cSubTitle;
+    }
+  }
+
+  & .logo {
+    font-size: 38px;
+    justify-content: center;
   }
 }

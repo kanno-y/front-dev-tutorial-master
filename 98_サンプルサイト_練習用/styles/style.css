@@ -242,6 +242,7 @@
 
 .hero {
   overflow: hidden;
+  padding-top: 100px;
 }
 
 .hero__title {
@@ -921,7 +922,7 @@ img {
   margin-bottom: 16px !important;
 }
 
-.mb-lg {
+.mb-lg, .popular__btn, .travel, .logo {
   margin-bottom: 80px !important;
 }
 
@@ -929,7 +930,7 @@ img {
   padding-bottom: 16px !important;
 }
 
-.mb-lg {
+.mb-lg, .popular__btn, .travel, .logo {
   padding-bottom: 80px !important;
 }
 
@@ -960,10 +961,6 @@ img {
 
 .purple {
   color: #904669;
-}
-
-#content {
-  padding-top: 100px;
 }
 
 #main-content {
@@ -1355,10 +1352,10 @@ Stylesheet: 960px以上のモニタで適用
   .font-lg, .main-title {
     font-size: 36px;
   }
-  .mb-lg {
+  .mb-lg, .popular__btn, .travel, .logo {
     margin-bottom: 150px !important;
   }
-  .pb-lg {
+  .pb-lg, .hero {
     padding-bottom: 150px !important;
   }
   .content-width, .houses, .popular__header, .popular__container, .header__inner, .travel, .footer {

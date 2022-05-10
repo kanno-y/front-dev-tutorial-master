@@ -193,7 +193,7 @@ main {
     }
   }
 
-  & .logo {
+  &.logo {
     font-size: 38px;
     justify-content: center;
   }
@@ -264,7 +264,7 @@ main {
 .logo {
   font-size: 42px;
   display: flex;
-  @extend .mb-lg;
+  // @extend .mb-lg;
 
   &__img {
     width: 0.7em;

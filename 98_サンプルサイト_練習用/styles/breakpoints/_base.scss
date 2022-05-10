@@ -67,6 +67,13 @@ img {
 #content {
   padding-top: $navHeight;
 }
+
+#container {
+  background-color: $cWhite;
+  position: relative;
+  z-index: 10;
+  transition: transform 0.5s, box-shadow 0.5s;
+}
 .houses {
   @extend .content-width;
 
@@ -150,6 +157,11 @@ img {
     justify-content: space-between;
     align-items: center;
     @extend .content-width;
+  }
+
+  &.triggered {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 10px 0 25px -10px rgba(0, 0, 0, 0.5);
   }
 
   &__nav {
